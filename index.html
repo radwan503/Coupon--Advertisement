@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Online Selling Site</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="asset/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="asset/css/responsive.css" />
+  </head>
+
+  <body>
+    <!--   =======navbar==========-->
+    <section class="top-navbar">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html"
+              ><img src="asset/image/logo.png" alt="img" class="img-responsive"
+            /></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav"></ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="ui-nav-item">
+                <a
+                  href="login-page.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  ><i class="fa fa-user" aria-hidden="true"></i> Log In</a
+                >
+              </li>
+              <li>
+                <a
+                  href="post-home.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  >Give Post</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <nav class="navscroll navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Start Header Navigation -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle custom-nav-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#brand"
+              ><img src="LOGO_ADDRESS" class="logo" alt=""
+            /></a>
+          </div>
+          <!-- End Header Navigation -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop-list.html">All Shops</a></li>
+              <li><a href="category.html">Category</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a
+                  href="post-home.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  >Give Post</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+    </section>
+    <section class="parralax-banner-section">
+      <div class="container">
+        <h2 role="heading">20.000+ Offer From 1.000+ Stores</h2>
+        <div class="searching-group">
+          <div class="row">
+            <div class="col-md-3 col-xs-12">
+              <button
+                type="button"
+                class="btn btn-primary btn-category"
+                data-toggle="modal"
+                data-target=".category-modal"
+              >
+                Selected Category
+              </button>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <button
+                type="button"
+                class="btn btn-primary btn-category"
+                data-toggle="modal"
+                data-target=".location-modal"
+              >
+                Selected Location
+              </button>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="search-form">
+                <div class="row">
+                  <div class="col-md-8">
+                    <form>
+                      <input
+                        type="text"
+                        class="control-form search-input"
+                        placeholder="Enter Your Search"
+                      />
+                    </form>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="search-btn-group">
+                      <button type="button" class="btn-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>Search
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social-side-bar">
+      <aside id="sticky-social">
+        <ul>
+          <li>
+            <a href="#" class="entypo-facebook" target="_blank"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+              ><span>Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-twitter" target="_blank"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+              ><span>Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-gplus" target="_blank"
+              ><i class="fa fa-google-plus" aria-hidden="true"></i
+              ><span>Google+</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-linkedin" target="_blank"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ><span>LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-instagrem" target="_blank"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+              ><span>Instagram</span></a
+            >
+          </li>
+        </ul>
+      </aside>
+    </section>
+    <!--============ui-panel-header ============-->
+    <section class="wrapper ui-panel-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img
+                  src="asset/image/store/store_01.jpg"
+                  alt=""
+                  class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img src="asset/image/store/store_02.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img
+                  src="asset/image/store/store_03.jpg"
+                  alt=""
+                  class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img src="asset/image/store/store_04.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img src="asset/image/store/store_05.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2">
+            <div class="company-list">
+              <a href="#"
+                ><img src="asset/image/store/store_06.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =======  featured-item=======-->
+    <section class="featured">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-1.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>60%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">60%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >Amazon | Ethically made handcrafted products</a
+                >
+                <div class="badge-list">
+                  <span class="badge badge-item">Amazon</span
+                  ><span class="badge badge-item">Alabama</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-2.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>80%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">80%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >IKEA | Online Grocery Shopping
+                </a>
+                <div class="badge-list">
+                  <span class="badge badge-item">Ikea</span
+                  ><span class="badge badge-item">Georgia</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-3.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>30%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">30%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >Apple | Ethically made handcrafted products</a
+                >
+                <div class="badge-list">
+                  <span class="badge badge-item">Apple</span
+                  ><span class="badge badge-item">Indiana</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-3.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>30%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">30%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >Apple | Ethically made handcrafted products</a
+                >
+                <div class="badge-list">
+                  <span class="badge badge-item">Apple</span
+                  ><span class="badge badge-item">Indiana</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-2.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>30%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">30%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >Apple | Ethically made handcrafted products</a
+                >
+                <div class="badge-list">
+                  <span class="badge badge-item">Apple</span
+                  ><span class="badge badge-item">Indiana</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="company-single-item">
+              <div class="company-logo">
+                <img src="./asset/image/product-img/brand-1.jpg" alt="brand" />
+                <div class="offer-corner-design">
+                  <h4>30%</h4>
+                </div>
+              </div>
+              <div class="offer">
+                <button class="slide">30%</button>
+              </div>
+              <div class="conpany-details">
+                <a class="header" href="product-details.html"
+                  >Apple | Ethically made handcrafted products</a
+                >
+                <div class="badge-list">
+                  <span class="badge badge-item">Apple</span
+                  ><span class="badge badge-item">Indiana</span>
+                </div>
+                <a href="product-details.html" class="view-more-button"
+                  >view details
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--top category-->
+
+    <section class="pupolar-list">
+      <div class="container">
+        <div class="popular-list-widget">
+          <div class="heading">
+            <i class="fa fa-align-right" aria-hidden="true"></i> Popular Tag
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i> Baby
+                  Kids</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Laptops</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i> Baby
+                  Toys</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Books</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Gifts</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Entertainetmen</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Phones</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Clothings</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Medical</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Computers</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Travel</a
+                >
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="custom-list">
+                <a href="#"
+                  ><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                  Sports</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--   pagination-->
+    <div class="pagination-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right">
+            <ul class="pagination">
+              <li class="active">
+                <a href="#"><i class="fa fa-angle-left"></i></a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">20</a></li>
+              <li class="active">
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  footer-->
+    <footer class="footer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L720,64L1440,256L1440,0L720,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <a href="#"><img src="asset/image/logo.png" alt="image" /></a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Deserunt inventore atque aspernatur assumenda repellat
+                  tempora, debitis adipisci quasi eaque hic!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>FAQ</h4>
+                <ul>
+                  <li><a href="#">How it works?.</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>Category</h4>
+                <ul>
+                  <li><a href="#">Fashion</a></li>
+                  <li><a href="#">Accesories</a></li>
+                  <li><a href="#">Home & Garden</a></li>
+                  <li><a href="#">Furniture</a></li>
+                  <li><a href="#">Electronics</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>Menu</h4>
+                <ul>
+                  <li><a href="#">Sign In</a></li>
+                  <li><a href="#">All Shops</a></li>
+                  <li><a href="#">Daily Offer</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========category-Modal=======-->
+    <div class="category-modal-popup">
+      <div
+        class="modal fade category-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="categoryModalLabel"
+        data-backdrop="static"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content filter-modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">
+                Select your category
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="catergory">
+                    <ul>
+                      <li><a href="#">Mobile Phone</a></li>
+                      <li><a href="#">Computer & Tablets</a></li>
+                      <li><a href="#">Tv & Video Accessories</a></li>
+                      <li>
+                        <a href="#">Cars &Vehicles</a>
+                      </li>
+                      <li>
+                        <a href="#"> Property</a>
+                      </li>
+                      <li><a href="#">All Education</a></li>
+                      <li><a href="#">Text Books</a></li>
+                      <li><a href="#">Tuition</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="catergory">
+                    <ul>
+                      <li><a href="#">Mobile Phone</a></li>
+                      <li><a href="#">Computer & Tablets</a></li>
+                      <li><a href="#">Tv & Video Accessories</a></li>
+                      <li>
+                        <a href="#">Cars &Vehicles</a>
+                      </li>
+                      <li>
+                        <a href="#"> Property</a>
+                      </li>
+                      <li><a href="#">All Education</a></li>
+                      <li><a href="#">Text Books</a></li>
+                      <li><a href="#">Tuition</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="catergory">
+                    <ul>
+                      <li><a href="#">Mobile Phone</a></li>
+                      <li><a href="#">Computer & Tablets</a></li>
+                      <li><a href="#">Tv & Video Accessories</a></li>
+                      <li>
+                        <a href="#">Cars &Vehicles</a>
+                      </li>
+                      <li>
+                        <a href="#"> Property</a>
+                      </li>
+                      <li><a href="#">All Education</a></li>
+                      <li><a href="#">Text Books</a></li>
+                      <li><a href="#">Tuition</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Gadget">
+                    <img src="./asset/image/menu-img/menu-1.jpg" alt="menu" />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Clothes">
+                    <img src="./asset/image/menu-img/menu-2.jpg" alt="menu" />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Vahicels">
+                    <img src="./asset/image/menu-img/menu-3.jpg" alt="menu" />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Books">
+                    <img src="./asset/image/menu-img/menu-4.jpg" alt="menu" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--      loaction modal-->
+    <div class="location-modal-popup">
+      <div
+        class="modal fade location-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="locationModalLabel"
+        data-backdrop="static"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content filter-modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">
+                Select your location
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="location-list">
+                    <ul>
+                      <li><a href="#">Alabama</a></li>
+                      <li><a href="#"> Alaska</a></li>
+                      <li><a href="#"> Arizona</a></li>
+                      <li><a href="#"> Arizona</a></li>
+                      <li><a href="#">California</a></li>
+                      <li><a href="#">Colorado</a></li>
+                      <li><a href="#"> Connecticut</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="location-list">
+                    <ul>
+                      <li><a href="#">Delaware</a></li>
+                      <li><a href="#">Florida</a></li>
+                      <li><a href="#"> Georgia</a></li>
+                      <li><a href="#"> Hawaii</a></li>
+                      <li><a href="#">Idaho</a></li>
+                      <li><a href="#"> Illinois</a></li>
+                      <li><a href="#"> Indiana</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="location-list">
+                    <ul>
+                      <li><a href="#"> Iowa</a></li>
+                      <li><a href="#"> Kansas</a></li>
+                      <li><a href="#"> Arizona</a></li>
+                      <li><a href="#"> Louisiana</a></li>
+                      <li><a href="#">California</a></li>
+                      <li><a href="#">Maine</a></li>
+                      <li><a href="#"> Maryland</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="location-list">
+                    <ul>
+                      <li><a href="#">Michigan</a></li>
+                      <li><a href="#">Minnesotaida</a></li>
+                      <li><a href="#"> Mississippi</a></li>
+                      <li><a href="#"> Connecticut</a></li>
+                      <li><a href="#">Delaware</a></li>
+                      <li><a href="#">Florida</a></li>
+                      <li><a href="#"> Georgia</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Michigan">
+                    <img
+                      src="./asset/image/menu-img/location-1.jpg"
+                      alt="location"
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Minnesotaida">
+                    <img
+                      src="./asset/image/menu-img/location-2.jpg"
+                      alt="location"
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Connecticut">
+                    <img
+                      src="./asset/image/menu-img/location-3.jpg"
+                      alt="location"
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail" title="Florida">
+                    <img
+                      src="./asset/image/menu-img/location-4.jpg"
+                      alt="location"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="asset/js/jquery-3.1.1.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>

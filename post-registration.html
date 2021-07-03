@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Online Selling Site</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="asset/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+  </head>
+
+  <body>
+    <!--   =======navbar==========-->
+    <section class="top-navbar">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html"
+              ><img src="asset/image/logo.png" alt="img" class="img-responsive"
+            /></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav"></ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="ui-nav-item">
+                <a
+                  href="login-page.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  ><i class="fa fa-user" aria-hidden="true"></i> Log In</a
+                >
+              </li>
+              <li>
+                <a
+                  href="post-home.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  >Give Post</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <nav class="navscroll navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Start Header Navigation -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle custom-nav-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#brand"
+              ><img src="LOGO_ADDRESS" class="logo" alt=""
+            /></a>
+          </div>
+          <!-- End Header Navigation -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop-list.html">All Shops</a></li>
+              <li><a href="category.html">Category</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a
+                  href="post-home.html"
+                  class="btn btn-primary nav-btn post-btn"
+                  >Give Post</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+    </section>
+    <section class="parralax-banner-section">
+      <h2 role="heading">Product Details</h2>
+      <p>20.000+ Offer From 1.000+ Stores</p>
+    </section>
+    <section class="social-side-bar">
+      <aside id="sticky-social">
+        <ul>
+          <li>
+            <a href="#" class="entypo-facebook" target="_blank"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+              ><span>Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-twitter" target="_blank"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+              ><span>Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-gplus" target="_blank"
+              ><i class="fa fa-google-plus" aria-hidden="true"></i
+              ><span>Google+</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-linkedin" target="_blank"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ><span>LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="entypo-instagrem" target="_blank"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+              ><span>Instagram</span></a
+            >
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <!--   ==============post-registration-page===========-->
+
+    <section class="post-registration-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="user-post-details">
+              <form>
+                <div class="field">
+                  <p>Shop Name</p>
+                  <label class="post-title" for="shop name"
+                    ><i class="fa fa-university" aria-hidden="true"></i
+                  ></label>
+                  <input
+                    type="text"
+                    class="form-control name-box"
+                    placeholder="Shop Name"
+                  />
+                </div>
+
+                <div class="field">
+                  <p>Product Category</p>
+                  <label class="post-title" for="product"
+                    ><i class="fa fa-server" aria-hidden="true"></i
+                  ></label>
+                  <input
+                    list="product_category"
+                    name="product"
+                    placeholder="Product Type"
+                    class="form-control name-box"
+                  />
+                  <datalist id="product_category">
+                    <option value="Electronics"></option>
+                    <option value="Car"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                  </datalist>
+                </div>
+
+                <div class="field">
+                  <p>Product Name</p>
+                  <label class="post-title" for="name"
+                    ><i class="fa fa-shopping-basket" aria-hidden="true"></i
+                  ></label>
+                  <input
+                    list="product"
+                    name="product"
+                    placeholder="product Name"
+                    class="form-control name-box"
+                  />
+                  <datalist id="product">
+                    <option value="Mobile Device"></option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                  </datalist>
+                </div>
+
+                <div class="field">
+                  <p>Location Name</p>
+                  <label class="post-title" for="name"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ></label>
+                  <input
+                    list="location"
+                    name="product"
+                    placeholder="Location"
+                    class="form-control name-box"
+                  />
+                  <datalist id="location">
+                    <option value="Dhaka"></option>
+                    <option value="Comilla"></option>
+                    <option value="Barisal"></option>
+                    <option value="Jessore"></option>
+                    <option value="Chittagong"></option>
+                  </datalist>
+                </div>
+
+                <div class="field">
+                  <p>Discount %</p>
+                  <label class="post-title" for="name"
+                    ><i class="fa fa-gift" aria-hidden="true"></i
+                  ></label>
+                  <input
+                    type="number"
+                    class="form-control name-box"
+                    placeholder="Discount"
+                  />
+                </div>
+
+                <div class="field">
+                  <p>Product Description</p>
+                  <textarea
+                    rows="5"
+                    cols="5"
+                    type="text"
+                    class="location-box"
+                    placeholder="Description(Max 200)"
+                  ></textarea>
+                </div>
+
+                <!--   ============upload image===========-->
+                <hr />
+                <div class="field">
+                  <p>Upload Your Image</p>
+                  <div class="row">
+                    <div class="col-md-3 item-thumb">
+                      <a href="#"
+                        ><img src="asset/image/post-img/postimg.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="col-md-6 item-thumb">
+                      <input
+                        id="image"
+                        name="image"
+                        type="file"
+                        class="userinput-input"
+                        multiple="multiple"
+                        accept=".jpg,.png,.jpeg"
+                      />
+                    </div>
+                    <div class="col-md-3">
+                      <div class="intruction">
+                        <input type="checkbox" checked /> upload orginal
+                        Picture.
+                      </div>
+                      <div class="intruction">
+                        <input type="checkbox" checked /> Max File size 5mb.
+                      </div>
+                      <div class="intruction">
+                        <input type="checkbox" checked /> Image Format jpeg or
+                        png.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==============post instruction============-->
+    <section class="post-registration-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="user-post-instruction">
+              <h4>Rules:</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+                quia laborum rerum, nemo nam quaerat nisi accusantium possimus
+                nostrum obcaecati!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  footer-->
+    <footer class="footer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L720,64L1440,256L1440,0L720,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <a href="#"><img src="asset/image/logo.png" alt="image" /></a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Deserunt inventore atque aspernatur assumenda repellat
+                  tempora, debitis adipisci quasi eaque hic!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>FAQ</h4>
+                <ul>
+                  <li><a href="#">How it works?.</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>Category</h4>
+                <ul>
+                  <li><a href="#">Fashion</a></li>
+                  <li><a href="#">Accesories</a></li>
+                  <li><a href="#">Home & Garden</a></li>
+                  <li><a href="#">Furniture</a></li>
+                  <li><a href="#">Electronics</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-wrapper">
+                <h4>Menu</h4>
+                <ul>
+                  <li><a href="#">Sign In</a></li>
+                  <li><a href="#">All Shops</a></li>
+                  <li><a href="#">Daily Offer</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="asset/js/jquery-3.1.1.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>
